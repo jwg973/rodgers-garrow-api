@@ -1,3 +1,3 @@
 /: SHOW SERVER_VERSION
 /tz: SHOW TIMEZONE
-/pdx: SELECT FROM flight_weather flight_number, arrival_delay, departure_delay, departure_actual, departure_scheduled, clouds, visibility, wind_speed, weather_id, weather_desc, temp;
+/pdx: SELECT flight_number, arrival_delay, departure_delay, departure_actual, departure_scheduled, clouds, visibility, wind_speed, weather_id, weather_desc, temp FROM flight_weather;
